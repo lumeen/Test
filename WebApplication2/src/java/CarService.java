@@ -14,6 +14,8 @@ import javax.enterprise.context.Dependent;
 @Named(value = "carService")
 @Dependent
 public class CarService {
+    
+    int a;
 
     /**
      * Creates a new instance of CarService
